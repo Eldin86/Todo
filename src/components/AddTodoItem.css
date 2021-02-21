@@ -1,0 +1,26 @@
+.todo_add_item_container{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    max-width: 450px;
+}
+.input_container{
+    width: 100%;
+}
+.input_container div{
+    border: 1px solid #4AB88E;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button_add_item{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    background-color: transparent;
+    border: 1px solid #4AB88E;
+    border-radius: 5px;
+    color: #4AB88E;
+    cursor: pointer;
+}

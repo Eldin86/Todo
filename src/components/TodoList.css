@@ -1,0 +1,33 @@
+.todo_list_item{    
+    list-style: none;
+    width: 100%;
+    margin: 15px 0;
+}
+.todo_list_item .item_container{
+    display: flex;
+}
+.button_todo_item{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    background-color: transparent;
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    color: #B8B8B8;
+    cursor: pointer;
+}
+.item_value_container{
+    width: 100%;
+}
+.item_value_container div{
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    height: 33px;
+    color: #4AB88E;
+    font-weight: bold;
+    text-align: center;
+}
+.item_value_container .todo_item_value{
+    line-height: 35px;
+}
+

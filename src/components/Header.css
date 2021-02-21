@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #4AB88E;
+    margin: 0 35px;
+}
+.header img{
+    width: 50%;
+}
+.header h2{
+    color: #4AB88E;
+    margin-bottom: 10px;
+}

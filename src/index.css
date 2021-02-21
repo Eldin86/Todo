@@ -1,0 +1,23 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.errorMsg{
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.button_todo_item:focus, .button_add_item:focus, .input_add_item:focus{
+  outline: none
+}
+.input_add_item{
+  border-top: 0px solid transparent;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 1px solid green;
+  color: green
+}
